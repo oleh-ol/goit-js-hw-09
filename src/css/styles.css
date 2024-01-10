@@ -24,3 +24,19 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.to-main {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2E2F42;
+  padding: 24px;
+}
+
+.to-main:hover,
+.to-main:focus {
+  color: #747bff;
+}
