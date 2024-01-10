@@ -5,8 +5,16 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   gap: 40px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #2E2F42;
+  ;
 }
 
 .nav-link {
