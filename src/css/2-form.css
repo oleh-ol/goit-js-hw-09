@@ -1,0 +1,44 @@
+.form-box {
+    max-width: 600px;
+}
+
+.input-form {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+.input-form::placeholder {
+    color: lightgray;
+}
+
+.textarea-form {
+    width: 100%;
+    height: auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    resize: none;
+    border-radius: 4px;
+}
+
+.label-form {
+    color: #4caf50;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    color: whitesmoke;
+    background-color: #4caf50;
+    text-decoration: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    border-radius: 4px;
+}
