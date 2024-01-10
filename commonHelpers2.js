@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-ec808ebb.js";const o="feedback-form-state",r=document.querySelector(".feedback-form");let t={};try{const e=localStorage.getItem(o);if(e){t=JSON.parse(e);for(let a in t)r.elements[a].value=t[a]}}catch{console.error("PARSE ERROR")}r.addEventListener("input",e=>{t[e.target.name]=e.target.value.trim(),localStorage.setItem(o,JSON.stringify(t))});r.addEventListener("submit",e=>{e.preventDefault(),console.log(t),localStorage.removeItem(o),r.reset()});
+//# sourceMappingURL=commonHelpers2.js.map
